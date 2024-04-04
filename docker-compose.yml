@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  engine:
+    build: .
+    container_name: lunaflux-engine
+    environment:
+      - CACHE_TTL=${CACHE_TTL:-60}
+    volumes:
+      - .:/app
+    command: python -m pytest tests/ -v
+
+  dashboard:
+    build:
+      context: ./dashboard
+      dockerfile: Dockerfile
+    container_name: lunaflux-dashboard
+    ports:
+      - "${DASHBOARD_PORT:-3000}:3000"
