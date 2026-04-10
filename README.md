@@ -1,5 +1,7 @@
 <div align="center">
 
+> `$LNFLX : 5VzzNYxeNMYjVB46skvycPyrzskDAXaK2s4Smbrcpump`
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:030712,100:7c3aed&height=200&section=header&text=LunaFlux&fontSize=58&fontColor=f9fafb&fontAlignY=38&desc=On-Chain%20Market%20Cycle%20Engine&descAlignY=58&descSize=18" width="100%"/>
 
 [![Tests](https://github.com/lunafluxdev/LunaFlux/actions/workflows/test.yml/badge.svg)](https://github.com/lunafluxdev/LunaFlux/actions)
